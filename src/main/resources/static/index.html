@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+</head>
+<body>
+<div style="wight:800px;">
+
+    <div style="padding: 50px;text-align: center;background-color: #398896;">
+        <h2 style="color: #FFD651;">Welcome to Currency Service</h2>
+    </div>
+
+    <div style="background-color: #FBF7EE;height:800px;">
+        <div style="float: left;padding-left:200px;padding-top:100px">
+            <script>getRates()</script>
+            <label for="currency">Select rate</label>
+            <div style="width:200px;height:100px;" id="currency"></div>
+        </div>
+        <div class="md" style="float:left;padding-top:100px;padding-left:100px;">
+            <button style="width:50px;height:25px" onclick="loadResultGif()">Go</button>
+        </div>
+        <div class="out" id="out" style="padding-top:200px;padding-left:150px;"></div>
+    </div>
+</div>
+</body>
+</html>
